@@ -1,3 +1,89 @@
+@font-face {
+  font-family: "PuppyBellies";
+  src: url("../fonts/PuppyBellies.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500; }
+
+div::-webkit-scrollbar {
+  width: 0.6em;
+  height: 0.6em; }
+
+div::-webkit-scrollbar-thumb {
+  background: indianred; }
+
+div::-webkit-scrollbar-track {
+  background: whitesmoke; }
+
+div {
+  scrollbar-face-color: indianred;
+  scrollbar-track-color: whitesmoke; }
+
+body {
+  margin: 0;
+  font-family: 'PuppyBellies'; }
+
+.container {
+  position: relative; }
+  .container > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.main {
+  height: 100vh;
+  overflow: hidden; }
+  .main .background-main {
+    background-image: url("/images/background.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.66; }
+
+.header-row {
+  margin: 15px 0; }
+  .header-row .header {
+    height: 50px;
+    width: 300px; }
+    .header-row .header > div {
+      border-radius: 15px; }
+    .header-row .header .background-header {
+      background-color: white;
+      opacity: 0.9; }
+    .header-row .header h1 {
+      color: indianred; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr; }
+
+.game {
+  height: 70vh;
+  width: 100%; }
+  .game > div {
+    border-radius: 15px; }
+  .game .background-game {
+    background-color: white;
+    opacity: 0.9; }
+
+.game-wrapper {
+  position: relative;
+  height: 68vh;
+  width: 98%;
+  margin: 1vh 1%;
+  overflow: auto; }
+  .game-wrapper .game-content {
+    height: 1000px;
+    width: 1500px; }
+    .game-wrapper .game-content .dog {
+      position: absolute; }
+
 .color-0 {
   filter: invert(0.5) sepia(0.75) hue-rotate(192deg) saturate(54) brightness(79%); }
 
@@ -297,383 +383,5 @@
 
 .color-99 {
   filter: invert(0.5) sepia(0.75) hue-rotate(279deg) saturate(69) brightness(68%); }
-
-.size-25 {
-  height: 25px; }
-
-.size-26 {
-  height: 26px; }
-
-.size-27 {
-  height: 27px; }
-
-.size-28 {
-  height: 28px; }
-
-.size-29 {
-  height: 29px; }
-
-.size-30 {
-  height: 30px; }
-
-.size-31 {
-  height: 31px; }
-
-.size-32 {
-  height: 32px; }
-
-.size-33 {
-  height: 33px; }
-
-.size-34 {
-  height: 34px; }
-
-.size-35 {
-  height: 35px; }
-
-.size-36 {
-  height: 36px; }
-
-.size-37 {
-  height: 37px; }
-
-.size-38 {
-  height: 38px; }
-
-.size-39 {
-  height: 39px; }
-
-.size-40 {
-  height: 40px; }
-
-.size-41 {
-  height: 41px; }
-
-.size-42 {
-  height: 42px; }
-
-.size-43 {
-  height: 43px; }
-
-.size-44 {
-  height: 44px; }
-
-.size-45 {
-  height: 45px; }
-
-.size-46 {
-  height: 46px; }
-
-.size-47 {
-  height: 47px; }
-
-.size-48 {
-  height: 48px; }
-
-.size-49 {
-  height: 49px; }
-
-.size-50 {
-  height: 50px; }
-
-.size-51 {
-  height: 51px; }
-
-.size-52 {
-  height: 52px; }
-
-.size-53 {
-  height: 53px; }
-
-.size-54 {
-  height: 54px; }
-
-.size-55 {
-  height: 55px; }
-
-.size-56 {
-  height: 56px; }
-
-.size-57 {
-  height: 57px; }
-
-.size-58 {
-  height: 58px; }
-
-.size-59 {
-  height: 59px; }
-
-.size-60 {
-  height: 60px; }
-
-.size-61 {
-  height: 61px; }
-
-.size-62 {
-  height: 62px; }
-
-.size-63 {
-  height: 63px; }
-
-.size-64 {
-  height: 64px; }
-
-.size-65 {
-  height: 65px; }
-
-.size-66 {
-  height: 66px; }
-
-.size-67 {
-  height: 67px; }
-
-.size-68 {
-  height: 68px; }
-
-.size-69 {
-  height: 69px; }
-
-.size-70 {
-  height: 70px; }
-
-.size-71 {
-  height: 71px; }
-
-.size-72 {
-  height: 72px; }
-
-.size-73 {
-  height: 73px; }
-
-.size-74 {
-  height: 74px; }
-
-.size-75 {
-  height: 75px; }
-
-.size-76 {
-  height: 76px; }
-
-.size-77 {
-  height: 77px; }
-
-.size-78 {
-  height: 78px; }
-
-.size-79 {
-  height: 79px; }
-
-.size-80 {
-  height: 80px; }
-
-.size-81 {
-  height: 81px; }
-
-.size-82 {
-  height: 82px; }
-
-.size-83 {
-  height: 83px; }
-
-.size-84 {
-  height: 84px; }
-
-.size-85 {
-  height: 85px; }
-
-.size-86 {
-  height: 86px; }
-
-.size-87 {
-  height: 87px; }
-
-.size-88 {
-  height: 88px; }
-
-.size-89 {
-  height: 89px; }
-
-.size-90 {
-  height: 90px; }
-
-.size-91 {
-  height: 91px; }
-
-.size-92 {
-  height: 92px; }
-
-.size-93 {
-  height: 93px; }
-
-.size-94 {
-  height: 94px; }
-
-.size-95 {
-  height: 95px; }
-
-.size-96 {
-  height: 96px; }
-
-.size-97 {
-  height: 97px; }
-
-.size-98 {
-  height: 98px; }
-
-.size-99 {
-  height: 99px; }
-
-.size-100 {
-  height: 100px; }
-
-.size-101 {
-  height: 101px; }
-
-.size-102 {
-  height: 102px; }
-
-.size-103 {
-  height: 103px; }
-
-.size-104 {
-  height: 104px; }
-
-.size-105 {
-  height: 105px; }
-
-.size-106 {
-  height: 106px; }
-
-.size-107 {
-  height: 107px; }
-
-.size-108 {
-  height: 108px; }
-
-.size-109 {
-  height: 109px; }
-
-.size-110 {
-  height: 110px; }
-
-.size-111 {
-  height: 111px; }
-
-.size-112 {
-  height: 112px; }
-
-.size-113 {
-  height: 113px; }
-
-.size-114 {
-  height: 114px; }
-
-.size-115 {
-  height: 115px; }
-
-.size-116 {
-  height: 116px; }
-
-.size-117 {
-  height: 117px; }
-
-.size-118 {
-  height: 118px; }
-
-.size-119 {
-  height: 119px; }
-
-.size-120 {
-  height: 120px; }
-
-.size-121 {
-  height: 121px; }
-
-.size-122 {
-  height: 122px; }
-
-.size-123 {
-  height: 123px; }
-
-.size-124 {
-  height: 124px; }
-
-.size-125 {
-  height: 125px; }
-
-.size-126 {
-  height: 126px; }
-
-.size-127 {
-  height: 127px; }
-
-.size-128 {
-  height: 128px; }
-
-.size-129 {
-  height: 129px; }
-
-.size-130 {
-  height: 130px; }
-
-.size-131 {
-  height: 131px; }
-
-.size-132 {
-  height: 132px; }
-
-.size-133 {
-  height: 133px; }
-
-.size-134 {
-  height: 134px; }
-
-.size-135 {
-  height: 135px; }
-
-.size-136 {
-  height: 136px; }
-
-.size-137 {
-  height: 137px; }
-
-.size-138 {
-  height: 138px; }
-
-.size-139 {
-  height: 139px; }
-
-.size-140 {
-  height: 140px; }
-
-.size-141 {
-  height: 141px; }
-
-.size-142 {
-  height: 142px; }
-
-.size-143 {
-  height: 143px; }
-
-.size-144 {
-  height: 144px; }
-
-.size-145 {
-  height: 145px; }
-
-.size-146 {
-  height: 146px; }
-
-.size-147 {
-  height: 147px; }
-
-.size-148 {
-  height: 148px; }
-
-.size-149 {
-  height: 149px; }
-
-.size-150 {
-  height: 150px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,15 +3,99 @@
 @mixin color($hue-rotate, $saturate, $brightness)
   filter: invert(.5) sepia(.75) hue-rotate($hue-rotate) saturate($saturate) brightness($brightness)
 
-// .dog
-//   position: absolute
+@mixin font-face($family, $filename, $folder, $style, $weight)
+  @font-face
+    font-family: $family
+    src: url('#{$folder}/#{$filename}.ttf') format("truetype")
+    font-style: $style
+    font-weight: $weight
 
+@include font-face('PuppyBellies', 'PuppyBellies', '../fonts', normal, 500)
+
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white, 50%))
+  div::-webkit-scrollbar
+      width:  $size
+      height: $size
+
+  div::-webkit-scrollbar-thumb 
+      background: $foreground-color
+
+  div::-webkit-scrollbar-track 
+      background: $background-color
+  
+  div
+    scrollbar-face-color: $foreground-color
+    scrollbar-track-color: $background-color
+
+@include scrollbars(.6em, indianred, whitesmoke)
+
+body
+  margin: 0
+  font-family: 'PuppyBellies'
+
+.container
+  position: relative
+  > div
+    position: absolute
+    top: 0
+    left: 0
+    height: 100%
+    width: 100%
+
+.center-content 
+  display: flex
+  justify-content: center
+  align-items: center
+  
+.main
+  height: 100vh
+  overflow: hidden
+  .background-main
+    background-image: url("/images/background.svg")
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    opacity: 0.66
+
+.header-row
+  margin: 15px 0
+  .header
+    height: 50px
+    width: 300px
+    > div
+      border-radius: 15px
+    .background-header
+      background-color: white
+      opacity: 0.9
+    h1
+      color: indianred
+
+.grid
+  display: grid
+  grid-template-columns: 1fr 4fr 1fr
+
+.game
+  height: 70vh
+  width: 100%
+  > div
+    border-radius: 15px
+  .background-game
+    background-color: white
+    opacity: 0.9
+
+.game-wrapper
+  position: relative
+  height: 68vh
+  width: 98%
+  margin: 1vh 1%
+  overflow: auto
+  .game-content
+    height: 1000px
+    width: 1500px  
+    .dog
+      position: absolute
+  
 .color
   @each $key, $color in $colors
     &-#{$key}
       @include color(map-get($color, h), map-get($color, s), map-get($color, l))
-    
-.size
-  @for $i from 25 through 150
-    &-#{$i}
-      height: #{$i}px

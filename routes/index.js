@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
-var Image = require('../public/javascripts/Image');
+var DogGen = require('../public/javascripts/DogGen');
 
 router.get('/', function(req, res, next) {
-  res.render('index', { images: new Array(200).fill().map(d => new Image()) });
+  res.render('index', { images: DogGen.getDogs(300) });
 });
 
 module.exports = router;

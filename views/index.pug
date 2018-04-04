@@ -1,8 +1,32 @@
 extends layout
 
 mixin dog(image)
-  img(class=image.classes, src=image.dog.icon)
+  img.dog(
+    class="color-" + image.color,
+    src=image.dog.icon,
+    style={
+      left: (image.pos.x - image.rad) + "px",
+      top: (image.pos.y - image.rad) + "px",
+      height: image.rad*2 + "px"
+    })
 
 block content
-  each image in images
-    +dog(image)
+  .container.main
+    .background-main
+    .content
+      .header-row.center-content
+        .container.header
+          .background-header
+          .content.center-content
+            h1 Welcome to Puggies!
+      .grid
+        .left
+        .center.center-content
+          .container.game
+            .background-game
+            .content
+              .game-wrapper
+                .game-content
+                  each image in images
+                    +dog(image)
+        .right
