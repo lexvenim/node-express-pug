@@ -3,9 +3,15 @@
 @mixin color($hue-rotate, $saturate, $brightness)
   filter: invert(.5) sepia(.75) hue-rotate($hue-rotate) saturate($saturate) brightness($brightness)
 
-.dog
+// .dog
+//   position: absolute
+
+.color
   @each $key, $color in $colors
-    &--#{$key}
-      height: (random(120))+px
+    &-#{$key}
       @include color(map-get($color, h), map-get($color, s), map-get($color, l))
     
+.size
+  @for $i from 25 through 150
+    &-#{$i}
+      height: #{$i}px

@@ -1,401 +1,679 @@
-.dog--0 {
-  height: 28px;
+.color-0 {
   filter: invert(0.5) sepia(0.75) hue-rotate(192deg) saturate(54) brightness(79%); }
 
-.dog--1 {
-  height: 6px;
+.color-1 {
   filter: invert(0.5) sepia(0.75) hue-rotate(190deg) saturate(23) brightness(32%); }
 
-.dog--2 {
-  height: 87px;
+.color-2 {
   filter: invert(0.5) sepia(0.75) hue-rotate(143deg) saturate(72) brightness(21%); }
 
-.dog--3 {
-  height: 104px;
+.color-3 {
   filter: invert(0.5) sepia(0.75) hue-rotate(77deg) saturate(11) brightness(52%); }
 
-.dog--4 {
-  height: 52px;
+.color-4 {
   filter: invert(0.5) sepia(0.75) hue-rotate(336deg) saturate(15) brightness(62%); }
 
-.dog--5 {
-  height: 66px;
+.color-5 {
   filter: invert(0.5) sepia(0.75) hue-rotate(118deg) saturate(74) brightness(30%); }
 
-.dog--6 {
-  height: 113px;
+.color-6 {
   filter: invert(0.5) sepia(0.75) hue-rotate(81deg) saturate(65) brightness(25%); }
 
-.dog--7 {
-  height: 116px;
+.color-7 {
   filter: invert(0.5) sepia(0.75) hue-rotate(111deg) saturate(3) brightness(95%); }
 
-.dog--8 {
-  height: 89px;
+.color-8 {
   filter: invert(0.5) sepia(0.75) hue-rotate(254deg) saturate(52) brightness(1%); }
 
-.dog--9 {
-  height: 91px;
+.color-9 {
   filter: invert(0.5) sepia(0.75) hue-rotate(155deg) saturate(84) brightness(35%); }
 
-.dog--10 {
-  height: 105px;
+.color-10 {
   filter: invert(0.5) sepia(0.75) hue-rotate(27deg) saturate(32) brightness(22%); }
 
-.dog--11 {
-  height: 15px;
+.color-11 {
   filter: invert(0.5) sepia(0.75) hue-rotate(11deg) saturate(59) brightness(31%); }
 
-.dog--12 {
-  height: 109px;
+.color-12 {
   filter: invert(0.5) sepia(0.75) hue-rotate(269deg) saturate(23) brightness(8%); }
 
-.dog--13 {
-  height: 104px;
+.color-13 {
   filter: invert(0.5) sepia(0.75) hue-rotate(320deg) saturate(26) brightness(26%); }
 
-.dog--14 {
-  height: 58px;
+.color-14 {
   filter: invert(0.5) sepia(0.75) hue-rotate(325deg) saturate(51) brightness(59%); }
 
-.dog--15 {
-  height: 79px;
+.color-15 {
   filter: invert(0.5) sepia(0.75) hue-rotate(224deg) saturate(38) brightness(48%); }
 
-.dog--16 {
-  height: 17px;
+.color-16 {
   filter: invert(0.5) sepia(0.75) hue-rotate(4deg) saturate(28) brightness(52%); }
 
-.dog--17 {
-  height: 38px;
+.color-17 {
   filter: invert(0.5) sepia(0.75) hue-rotate(68deg) saturate(76) brightness(56%); }
 
-.dog--18 {
-  height: 78px;
+.color-18 {
   filter: invert(0.5) sepia(0.75) hue-rotate(312deg) saturate(47) brightness(11%); }
 
-.dog--19 {
-  height: 67px;
+.color-19 {
   filter: invert(0.5) sepia(0.75) hue-rotate(116deg) saturate(90) brightness(98%); }
 
-.dog--20 {
-  height: 110px;
+.color-20 {
   filter: invert(0.5) sepia(0.75) hue-rotate(156deg) saturate(2) brightness(96%); }
 
-.dog--21 {
-  height: 69px;
+.color-21 {
   filter: invert(0.5) sepia(0.75) hue-rotate(19deg) saturate(95) brightness(37%); }
 
-.dog--22 {
-  height: 9px;
+.color-22 {
   filter: invert(0.5) sepia(0.75) hue-rotate(34deg) saturate(53) brightness(20%); }
 
-.dog--23 {
-  height: 108px;
+.color-23 {
   filter: invert(0.5) sepia(0.75) hue-rotate(68deg) saturate(18) brightness(17%); }
 
-.dog--24 {
-  height: 101px;
+.color-24 {
   filter: invert(0.5) sepia(0.75) hue-rotate(94deg) saturate(96) brightness(70%); }
 
-.dog--25 {
-  height: 7px;
+.color-25 {
   filter: invert(0.5) sepia(0.75) hue-rotate(321deg) saturate(67) brightness(55%); }
 
-.dog--26 {
-  height: 26px;
+.color-26 {
   filter: invert(0.5) sepia(0.75) hue-rotate(84deg) saturate(12) brightness(89%); }
 
-.dog--27 {
-  height: 108px;
+.color-27 {
   filter: invert(0.5) sepia(0.75) hue-rotate(94deg) saturate(88) brightness(40%); }
 
-.dog--28 {
-  height: 79px;
+.color-28 {
   filter: invert(0.5) sepia(0.75) hue-rotate(64deg) saturate(76) brightness(46%); }
 
-.dog--29 {
-  height: 94px;
+.color-29 {
   filter: invert(0.5) sepia(0.75) hue-rotate(291deg) saturate(83) brightness(0%); }
 
-.dog--30 {
-  height: 4px;
+.color-30 {
   filter: invert(0.5) sepia(0.75) hue-rotate(72deg) saturate(28) brightness(54%); }
 
-.dog--31 {
-  height: 17px;
+.color-31 {
   filter: invert(0.5) sepia(0.75) hue-rotate(26deg) saturate(92) brightness(60%); }
 
-.dog--32 {
-  height: 115px;
+.color-32 {
   filter: invert(0.5) sepia(0.75) hue-rotate(99deg) saturate(88) brightness(26%); }
 
-.dog--33 {
-  height: 83px;
+.color-33 {
   filter: invert(0.5) sepia(0.75) hue-rotate(3deg) saturate(88) brightness(55%); }
 
-.dog--34 {
-  height: 67px;
+.color-34 {
   filter: invert(0.5) sepia(0.75) hue-rotate(25deg) saturate(56) brightness(15%); }
 
-.dog--35 {
-  height: 21px;
+.color-35 {
   filter: invert(0.5) sepia(0.75) hue-rotate(33deg) saturate(64) brightness(68%); }
 
-.dog--36 {
-  height: 34px;
+.color-36 {
   filter: invert(0.5) sepia(0.75) hue-rotate(147deg) saturate(53) brightness(34%); }
 
-.dog--37 {
-  height: 76px;
+.color-37 {
   filter: invert(0.5) sepia(0.75) hue-rotate(87deg) saturate(58) brightness(8%); }
 
-.dog--38 {
-  height: 113px;
+.color-38 {
   filter: invert(0.5) sepia(0.75) hue-rotate(200deg) saturate(91) brightness(79%); }
 
-.dog--39 {
-  height: 107px;
+.color-39 {
   filter: invert(0.5) sepia(0.75) hue-rotate(35deg) saturate(84) brightness(36%); }
 
-.dog--40 {
-  height: 62px;
+.color-40 {
   filter: invert(0.5) sepia(0.75) hue-rotate(247deg) saturate(22) brightness(58%); }
 
-.dog--41 {
-  height: 70px;
+.color-41 {
   filter: invert(0.5) sepia(0.75) hue-rotate(6deg) saturate(42) brightness(96%); }
 
-.dog--42 {
-  height: 31px;
+.color-42 {
   filter: invert(0.5) sepia(0.75) hue-rotate(262deg) saturate(58) brightness(59%); }
 
-.dog--43 {
-  height: 112px;
+.color-43 {
   filter: invert(0.5) sepia(0.75) hue-rotate(356deg) saturate(23) brightness(42%); }
 
-.dog--44 {
-  height: 81px;
+.color-44 {
   filter: invert(0.5) sepia(0.75) hue-rotate(231deg) saturate(45) brightness(64%); }
 
-.dog--45 {
-  height: 74px;
+.color-45 {
   filter: invert(0.5) sepia(0.75) hue-rotate(173deg) saturate(60) brightness(19%); }
 
-.dog--46 {
-  height: 9px;
+.color-46 {
   filter: invert(0.5) sepia(0.75) hue-rotate(359deg) saturate(71) brightness(33%); }
 
-.dog--47 {
-  height: 37px;
+.color-47 {
   filter: invert(0.5) sepia(0.75) hue-rotate(9deg) saturate(42) brightness(31%); }
 
-.dog--48 {
-  height: 79px;
+.color-48 {
   filter: invert(0.5) sepia(0.75) hue-rotate(144deg) saturate(8) brightness(37%); }
 
-.dog--49 {
-  height: 44px;
+.color-49 {
   filter: invert(0.5) sepia(0.75) hue-rotate(142deg) saturate(99) brightness(31%); }
 
-.dog--50 {
-  height: 90px;
+.color-50 {
   filter: invert(0.5) sepia(0.75) hue-rotate(208deg) saturate(57) brightness(26%); }
 
-.dog--51 {
-  height: 89px;
+.color-51 {
   filter: invert(0.5) sepia(0.75) hue-rotate(328deg) saturate(86) brightness(96%); }
 
-.dog--52 {
-  height: 56px;
+.color-52 {
   filter: invert(0.5) sepia(0.75) hue-rotate(143deg) saturate(56) brightness(44%); }
 
-.dog--53 {
-  height: 116px;
+.color-53 {
   filter: invert(0.5) sepia(0.75) hue-rotate(206deg) saturate(74) brightness(45%); }
 
-.dog--54 {
-  height: 96px;
+.color-54 {
   filter: invert(0.5) sepia(0.75) hue-rotate(249deg) saturate(35) brightness(49%); }
 
-.dog--55 {
-  height: 20px;
+.color-55 {
   filter: invert(0.5) sepia(0.75) hue-rotate(26deg) saturate(96) brightness(75%); }
 
-.dog--56 {
-  height: 91px;
+.color-56 {
   filter: invert(0.5) sepia(0.75) hue-rotate(57deg) saturate(9) brightness(30%); }
 
-.dog--57 {
-  height: 94px;
+.color-57 {
   filter: invert(0.5) sepia(0.75) hue-rotate(184deg) saturate(37) brightness(95%); }
 
-.dog--58 {
-  height: 74px;
+.color-58 {
   filter: invert(0.5) sepia(0.75) hue-rotate(2deg) saturate(63) brightness(45%); }
 
-.dog--59 {
-  height: 101px;
+.color-59 {
   filter: invert(0.5) sepia(0.75) hue-rotate(295deg) saturate(20) brightness(84%); }
 
-.dog--60 {
-  height: 11px;
+.color-60 {
   filter: invert(0.5) sepia(0.75) hue-rotate(339deg) saturate(66) brightness(37%); }
 
-.dog--61 {
-  height: 108px;
+.color-61 {
   filter: invert(0.5) sepia(0.75) hue-rotate(32deg) saturate(31) brightness(46%); }
 
-.dog--62 {
-  height: 113px;
+.color-62 {
   filter: invert(0.5) sepia(0.75) hue-rotate(240deg) saturate(0) brightness(23%); }
 
-.dog--63 {
-  height: 63px;
+.color-63 {
   filter: invert(0.5) sepia(0.75) hue-rotate(242deg) saturate(90) brightness(29%); }
 
-.dog--64 {
-  height: 5px;
+.color-64 {
   filter: invert(0.5) sepia(0.75) hue-rotate(260deg) saturate(82) brightness(89%); }
 
-.dog--65 {
-  height: 49px;
+.color-65 {
   filter: invert(0.5) sepia(0.75) hue-rotate(194deg) saturate(76) brightness(5%); }
 
-.dog--66 {
-  height: 103px;
+.color-66 {
   filter: invert(0.5) sepia(0.75) hue-rotate(6deg) saturate(45) brightness(99%); }
 
-.dog--67 {
-  height: 119px;
+.color-67 {
   filter: invert(0.5) sepia(0.75) hue-rotate(73deg) saturate(51) brightness(63%); }
 
-.dog--68 {
-  height: 15px;
+.color-68 {
   filter: invert(0.5) sepia(0.75) hue-rotate(323deg) saturate(78) brightness(73%); }
 
-.dog--69 {
-  height: 19px;
+.color-69 {
   filter: invert(0.5) sepia(0.75) hue-rotate(210deg) saturate(92) brightness(48%); }
 
-.dog--70 {
-  height: 18px;
+.color-70 {
   filter: invert(0.5) sepia(0.75) hue-rotate(175deg) saturate(73) brightness(71%); }
 
-.dog--71 {
-  height: 39px;
+.color-71 {
   filter: invert(0.5) sepia(0.75) hue-rotate(102deg) saturate(73) brightness(48%); }
 
-.dog--72 {
-  height: 59px;
+.color-72 {
   filter: invert(0.5) sepia(0.75) hue-rotate(335deg) saturate(60) brightness(23%); }
 
-.dog--73 {
-  height: 39px;
+.color-73 {
   filter: invert(0.5) sepia(0.75) hue-rotate(104deg) saturate(89) brightness(8%); }
 
-.dog--74 {
-  height: 105px;
+.color-74 {
   filter: invert(0.5) sepia(0.75) hue-rotate(153deg) saturate(26) brightness(64%); }
 
-.dog--75 {
-  height: 51px;
+.color-75 {
   filter: invert(0.5) sepia(0.75) hue-rotate(56deg) saturate(71) brightness(36%); }
 
-.dog--76 {
-  height: 42px;
+.color-76 {
   filter: invert(0.5) sepia(0.75) hue-rotate(130deg) saturate(40) brightness(78%); }
 
-.dog--77 {
-  height: 11px;
+.color-77 {
   filter: invert(0.5) sepia(0.75) hue-rotate(135deg) saturate(59) brightness(51%); }
 
-.dog--78 {
-  height: 118px;
+.color-78 {
   filter: invert(0.5) sepia(0.75) hue-rotate(60deg) saturate(92) brightness(39%); }
 
-.dog--79 {
-  height: 12px;
+.color-79 {
   filter: invert(0.5) sepia(0.75) hue-rotate(34deg) saturate(14) brightness(18%); }
 
-.dog--80 {
-  height: 33px;
+.color-80 {
   filter: invert(0.5) sepia(0.75) hue-rotate(183deg) saturate(72) brightness(4%); }
 
-.dog--81 {
-  height: 18px;
+.color-81 {
   filter: invert(0.5) sepia(0.75) hue-rotate(28deg) saturate(44) brightness(46%); }
 
-.dog--82 {
-  height: 103px;
+.color-82 {
   filter: invert(0.5) sepia(0.75) hue-rotate(162deg) saturate(80) brightness(77%); }
 
-.dog--83 {
-  height: 104px;
+.color-83 {
   filter: invert(0.5) sepia(0.75) hue-rotate(200deg) saturate(62) brightness(42%); }
 
-.dog--84 {
-  height: 30px;
+.color-84 {
   filter: invert(0.5) sepia(0.75) hue-rotate(185deg) saturate(77) brightness(45%); }
 
-.dog--85 {
-  height: 108px;
+.color-85 {
   filter: invert(0.5) sepia(0.75) hue-rotate(127deg) saturate(46) brightness(16%); }
 
-.dog--86 {
-  height: 36px;
+.color-86 {
   filter: invert(0.5) sepia(0.75) hue-rotate(282deg) saturate(42) brightness(52%); }
 
-.dog--87 {
-  height: 119px;
+.color-87 {
   filter: invert(0.5) sepia(0.75) hue-rotate(279deg) saturate(37) brightness(65%); }
 
-.dog--88 {
-  height: 110px;
+.color-88 {
   filter: invert(0.5) sepia(0.75) hue-rotate(267deg) saturate(46) brightness(17%); }
 
-.dog--89 {
-  height: 93px;
+.color-89 {
   filter: invert(0.5) sepia(0.75) hue-rotate(183deg) saturate(26) brightness(29%); }
 
-.dog--90 {
-  height: 109px;
+.color-90 {
   filter: invert(0.5) sepia(0.75) hue-rotate(6deg) saturate(87) brightness(36%); }
 
-.dog--91 {
-  height: 17px;
+.color-91 {
   filter: invert(0.5) sepia(0.75) hue-rotate(258deg) saturate(70) brightness(17%); }
 
-.dog--92 {
-  height: 8px;
+.color-92 {
   filter: invert(0.5) sepia(0.75) hue-rotate(278deg) saturate(25) brightness(24%); }
 
-.dog--93 {
-  height: 22px;
+.color-93 {
   filter: invert(0.5) sepia(0.75) hue-rotate(79deg) saturate(95) brightness(58%); }
 
-.dog--94 {
-  height: 40px;
+.color-94 {
   filter: invert(0.5) sepia(0.75) hue-rotate(133deg) saturate(78) brightness(76%); }
 
-.dog--95 {
-  height: 107px;
+.color-95 {
   filter: invert(0.5) sepia(0.75) hue-rotate(136deg) saturate(3) brightness(29%); }
 
-.dog--96 {
-  height: 66px;
+.color-96 {
   filter: invert(0.5) sepia(0.75) hue-rotate(150deg) saturate(56) brightness(51%); }
 
-.dog--97 {
-  height: 98px;
+.color-97 {
   filter: invert(0.5) sepia(0.75) hue-rotate(331deg) saturate(53) brightness(51%); }
 
-.dog--98 {
-  height: 22px;
+.color-98 {
   filter: invert(0.5) sepia(0.75) hue-rotate(131deg) saturate(57) brightness(65%); }
 
-.dog--99 {
-  height: 101px;
+.color-99 {
   filter: invert(0.5) sepia(0.75) hue-rotate(279deg) saturate(69) brightness(68%); }
+
+.size-25 {
+  height: 25px; }
+
+.size-26 {
+  height: 26px; }
+
+.size-27 {
+  height: 27px; }
+
+.size-28 {
+  height: 28px; }
+
+.size-29 {
+  height: 29px; }
+
+.size-30 {
+  height: 30px; }
+
+.size-31 {
+  height: 31px; }
+
+.size-32 {
+  height: 32px; }
+
+.size-33 {
+  height: 33px; }
+
+.size-34 {
+  height: 34px; }
+
+.size-35 {
+  height: 35px; }
+
+.size-36 {
+  height: 36px; }
+
+.size-37 {
+  height: 37px; }
+
+.size-38 {
+  height: 38px; }
+
+.size-39 {
+  height: 39px; }
+
+.size-40 {
+  height: 40px; }
+
+.size-41 {
+  height: 41px; }
+
+.size-42 {
+  height: 42px; }
+
+.size-43 {
+  height: 43px; }
+
+.size-44 {
+  height: 44px; }
+
+.size-45 {
+  height: 45px; }
+
+.size-46 {
+  height: 46px; }
+
+.size-47 {
+  height: 47px; }
+
+.size-48 {
+  height: 48px; }
+
+.size-49 {
+  height: 49px; }
+
+.size-50 {
+  height: 50px; }
+
+.size-51 {
+  height: 51px; }
+
+.size-52 {
+  height: 52px; }
+
+.size-53 {
+  height: 53px; }
+
+.size-54 {
+  height: 54px; }
+
+.size-55 {
+  height: 55px; }
+
+.size-56 {
+  height: 56px; }
+
+.size-57 {
+  height: 57px; }
+
+.size-58 {
+  height: 58px; }
+
+.size-59 {
+  height: 59px; }
+
+.size-60 {
+  height: 60px; }
+
+.size-61 {
+  height: 61px; }
+
+.size-62 {
+  height: 62px; }
+
+.size-63 {
+  height: 63px; }
+
+.size-64 {
+  height: 64px; }
+
+.size-65 {
+  height: 65px; }
+
+.size-66 {
+  height: 66px; }
+
+.size-67 {
+  height: 67px; }
+
+.size-68 {
+  height: 68px; }
+
+.size-69 {
+  height: 69px; }
+
+.size-70 {
+  height: 70px; }
+
+.size-71 {
+  height: 71px; }
+
+.size-72 {
+  height: 72px; }
+
+.size-73 {
+  height: 73px; }
+
+.size-74 {
+  height: 74px; }
+
+.size-75 {
+  height: 75px; }
+
+.size-76 {
+  height: 76px; }
+
+.size-77 {
+  height: 77px; }
+
+.size-78 {
+  height: 78px; }
+
+.size-79 {
+  height: 79px; }
+
+.size-80 {
+  height: 80px; }
+
+.size-81 {
+  height: 81px; }
+
+.size-82 {
+  height: 82px; }
+
+.size-83 {
+  height: 83px; }
+
+.size-84 {
+  height: 84px; }
+
+.size-85 {
+  height: 85px; }
+
+.size-86 {
+  height: 86px; }
+
+.size-87 {
+  height: 87px; }
+
+.size-88 {
+  height: 88px; }
+
+.size-89 {
+  height: 89px; }
+
+.size-90 {
+  height: 90px; }
+
+.size-91 {
+  height: 91px; }
+
+.size-92 {
+  height: 92px; }
+
+.size-93 {
+  height: 93px; }
+
+.size-94 {
+  height: 94px; }
+
+.size-95 {
+  height: 95px; }
+
+.size-96 {
+  height: 96px; }
+
+.size-97 {
+  height: 97px; }
+
+.size-98 {
+  height: 98px; }
+
+.size-99 {
+  height: 99px; }
+
+.size-100 {
+  height: 100px; }
+
+.size-101 {
+  height: 101px; }
+
+.size-102 {
+  height: 102px; }
+
+.size-103 {
+  height: 103px; }
+
+.size-104 {
+  height: 104px; }
+
+.size-105 {
+  height: 105px; }
+
+.size-106 {
+  height: 106px; }
+
+.size-107 {
+  height: 107px; }
+
+.size-108 {
+  height: 108px; }
+
+.size-109 {
+  height: 109px; }
+
+.size-110 {
+  height: 110px; }
+
+.size-111 {
+  height: 111px; }
+
+.size-112 {
+  height: 112px; }
+
+.size-113 {
+  height: 113px; }
+
+.size-114 {
+  height: 114px; }
+
+.size-115 {
+  height: 115px; }
+
+.size-116 {
+  height: 116px; }
+
+.size-117 {
+  height: 117px; }
+
+.size-118 {
+  height: 118px; }
+
+.size-119 {
+  height: 119px; }
+
+.size-120 {
+  height: 120px; }
+
+.size-121 {
+  height: 121px; }
+
+.size-122 {
+  height: 122px; }
+
+.size-123 {
+  height: 123px; }
+
+.size-124 {
+  height: 124px; }
+
+.size-125 {
+  height: 125px; }
+
+.size-126 {
+  height: 126px; }
+
+.size-127 {
+  height: 127px; }
+
+.size-128 {
+  height: 128px; }
+
+.size-129 {
+  height: 129px; }
+
+.size-130 {
+  height: 130px; }
+
+.size-131 {
+  height: 131px; }
+
+.size-132 {
+  height: 132px; }
+
+.size-133 {
+  height: 133px; }
+
+.size-134 {
+  height: 134px; }
+
+.size-135 {
+  height: 135px; }
+
+.size-136 {
+  height: 136px; }
+
+.size-137 {
+  height: 137px; }
+
+.size-138 {
+  height: 138px; }
+
+.size-139 {
+  height: 139px; }
+
+.size-140 {
+  height: 140px; }
+
+.size-141 {
+  height: 141px; }
+
+.size-142 {
+  height: 142px; }
+
+.size-143 {
+  height: 143px; }
+
+.size-144 {
+  height: 144px; }
+
+.size-145 {
+  height: 145px; }
+
+.size-146 {
+  height: 146px; }
+
+.size-147 {
+  height: 147px; }
+
+.size-148 {
+  height: 148px; }
+
+.size-149 {
+  height: 149px; }
+
+.size-150 {
+  height: 150px; }
 
 /*# sourceMappingURL=style.css.map */
