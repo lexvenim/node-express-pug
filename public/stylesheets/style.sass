@@ -1,6 +1,11 @@
-body
-  padding: 50px
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+@import "./colors.scss"
 
-a
-  color: #00B7FF
+@mixin color($hue-rotate, $saturate, $brightness)
+  filter: invert(.5) sepia(.75) hue-rotate($hue-rotate) saturate($saturate) brightness($brightness)
+
+.dog
+  @each $key, $color in $colors
+    &--#{$key}
+      height: (random(120))+px
+      @include color(map-get($color, h), map-get($color, s), map-get($color, l))
+    

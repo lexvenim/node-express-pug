@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
+var Image = require('../public/javascripts/Image');
 
-/* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { images: new Array(200).fill().map(d => new Image()) });
 });
 
 module.exports = router;

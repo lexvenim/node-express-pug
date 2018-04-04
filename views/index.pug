@@ -1,5 +1,8 @@
 extends layout
 
+mixin dog(image)
+  img(class=image.class, src=image.dog.icon)
+
 block content
-  h1= title
-  p Welcome to #{title}
+  each image in images
+    +dog(image)
